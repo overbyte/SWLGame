@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://b63gaya5c0qk2"]
+
+[ext_resource type="PackedScene" uid="uid://b5selkx3ru6ff" path="res://Characters/Player.tscn" id="1_h8txg"]
+
+[node name="WoodlandMount" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_h8txg")]
+position = Vector2(114, 67)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
