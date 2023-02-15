@@ -8,3 +8,4 @@
 position = Vector2(114, 67)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
+enabled = false
